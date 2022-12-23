@@ -1,159 +1,37 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">       
-
-        <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/style-2.css">
-
-        <title>Responsive card hover effects</title>
-    </head>
-    <body>
-        <div class="card">
-          <div class="card-container">
-            <article class="card-article">
-                <div class="card-data">
-                    <img src="assets/img/img1.png" alt="card image" class="card-img">
-                    <div class="card-2-text">
-                        <h1 class="card-title">Shield & Shining Star</h1>
-                        <p class="card-description">Beautiful card, with hover effects</p>
-                        <div class="card-2-btn">
-                            <div class="button-borders">
-                                <button class="primary-button"> BUY NOW
-                                </button>
-                            </div>
-                    </div>
-                    </div>
-                </div>
-
-                <div class="card-shapes">
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                </div>
-            </article>
-
-            <article class="card-article">
-                <div class="card-data">
-                    <img src="assets/img/img2.png" alt="card image" class="card-img">
-
-                    <h1 class="card-title">Fire Light Sword</h1>
-                    <p class="card-description">Beautiful card, with hover effects</p>
-                    <div class="card-2-btn">
-                        <div class="button-borders">
-                            <button class="primary-button"> BUY NOW
-                            </button>
-                        </div>
-                </div>
-                </div>
-
-                <div class="card-shapes">
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                </div>
-            </article>
-
-            <article class="card-article">
-                <div class="card-data">
-                    <img src="assets/img/img3.png" alt="card image" class="card-img">
-
-                    <h1 class="card-title">Incoming Messages</h1>
-                    <p class="card-description">Beautiful card, with hover effects</p>
-                    <div class="card-2-btn">
-                        <div class="button-borders">
-                            <button class="primary-button"> BUY NOW
-                            </button>
-                        </div>
-                </div>
-                </div>
-                
-
-                <div class="card-shapes">
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                    <span class="card-shape"></span>
-                </div>
-            </article>     
-          </div>
-        </div>
-
-        <!--  CARDS / V.2.0.0  -->
-
-        <div class="card-2">
-            <div class="card-2-container">
-              <article class="card-2-article">
-                  <div class="card-2-data">
-                      <img src="assets/img/img1.png" alt="card image" class="card-img">
-  
-                      <div class="card-2-text">
-                        <h1 class="card-title">Shield & Shining Star</h1>
-                        <p class="card-description">Beautiful card, with hover effects</p>
-                        <div class="card-2-btn">
-                            <div class="button-borders">
-                                <button class="primary-button"> BUY NOW
-                                </button>
-                            </div>
-                    </div>
-                  </div>
-                  
-                </div>
-                
-              </article>
-  
-              <article class="card-2-article">
-                <div class="card-2-data">
-                    <img src="assets/img/img1.png" alt="card image" class="card-img">
-
-                    <div class="card-2-text">
-                      <h1 class="card-title">Shield & Shining Star</h1>
-                      <p class="card-description">Beautiful card, with hover effects</p>
-                      <div class="card-2-btn">
-                          <div class="button-borders">
-                              <button class="primary-button"> BUY NOW
-                              </button>
-                          </div>
-                  </div>
-                </div>
-              </div>
-            </article>
-  
-            <article class="card-2-article">
-                <div class="card-2-data">
-                    <img src="assets/img/img1.png" alt="card image" class="card-img">
-
-                    <div class="card-2-text">
-                      <h1 class="card-title">Shield & Shining Star</h1>
-                      <p class="card-description">Beautiful card, with hover effects</p>
-                      <div class="card-2-btn">
-                          <div class="button-borders">
-                              <button class="primary-button"> BUY NOW
-                              </button>
-                          </div>
-                  </div>
-                </div>
-              </div>
-            </article>    
-            </div>
-          </div>
-
-
-    </body>
+<html>
+<head>
+	<title>Contact us</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="assets/style.css">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0">
+</head>
+<body>
+  <form action="connect.php" method="post">
+	<div class="container">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+				<h2>Contact Us</h2>
+				<input type="text" class="field" id="fullname" name="fullname" placeholder="Full Name">
+				<input type="number" class="field" id="age" name="age" placeholder="Age">
+        <input type="text" class="field" id="adress" name="adress" placeholder="Adress">
+				<input type="text" class="field" id="phone" name="phone" placeholder="Phone">
+        <hr>
+        <label for="level">Level</label>
+        <select id="level" name="level">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+        <hr>
+				<button class="btn" type="submit">Add</button>
+			</div>
+		</div>
+	</div>
+</form>
+</body>
 </html>
